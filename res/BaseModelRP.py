@@ -31,7 +31,7 @@ TotalTimePT = DefineVariable('TotalTimePT', TimePT + WalkingTimePT + WaitingTime
 #### UTILITIES #####
 
 PT = ASC_PT + Beta_Time*TotalTimePT+Beta_Cost*MarginalCostPT
-CAR = ASC_CAR + Beta_Time*TimeCar+Beta_Cost*CostCar
+CAR = ASC_CAR + Beta_Time*TimeCar+Beta_Cost*CostCarCHF
 SM = ASC_SM + Beta_Distance*distance_km
 
 
